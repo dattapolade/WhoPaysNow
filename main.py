@@ -1,13 +1,18 @@
-
 import random
 
-names_string = input("Input everyone's name, separated by a comma. ")
-names = names_string.split(", ")
+def select_person(names):
+    if len(names) == 0:
+        print("Please enter at least one name.")
+        return None
+    else:
+        random_person = random.choice(names)
+        return random_person.strip() 
 
-num_items = len(names)
+names_string = input("Input everyone's name, separated by a comma: ")
 
-random_int = random.randint(0, num_items-1)
+names = [name.strip() for name in names_string.split(",")]
 
-person_name = names[random_int]
+selected_person = select_person(names)
 
-print(f"{person_name} is going to buy the meal today!")
+if selected_person:
+    print(f"{selected_person} is going to buy the meal today!")
