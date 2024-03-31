@@ -29,5 +29,10 @@ Give it a try online at: [https://dattu.pythonanywhere.com/](https://dattu.pytho
      ```
    - Follow the prompts to input the names of friends participating in the event. The program will randomly choose one person to pay.
 
+## Screenshot 
+This is input screenshot:
+![who1](https://github.com/dattapolade/WhoPaysNow/assets/109914851/ac682647-d429-4093-87b7-799832ebae3a)
 
-  
+Result will be looks like:
+![who3](https://github.com/dattapolade/WhoPaysNow/assets/109914851/cf885fa9-8868-48d0-b85c-40603eb6f4e2)
+
